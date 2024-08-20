@@ -1,0 +1,230 @@
+body {
+  width:1280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items:center;
+  height: auto;
+}
+
+.inter {
+  font-family: "Inter", sans-serif;
+}
+
+.jura {
+  font-family: "Jura", sans-serif;
+}
+
+header {
+  width:1280px ;
+  background: #fafafa;
+  height: 55px;
+  border-bottom: 0.5rem solid #2c3b6f;
+  position:fixed;
+  top:0;
+  display: flex;
+  justify-content: space-between;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  padding: 4px;
+}
+
+header ul li {
+  padding: 4px;
+  
+
+}
+
+header ul li a {
+  color: #002BC2;
+}
+
+.logo {
+  font-size: 2rem;
+}
+
+.mainlogo {
+  width: 646.69px;
+  height: 230px;
+  top: 127px;
+  left: 727px;
+  position: relative;
+}
+
+.mainlogo .leo, .mainlogo .lov {
+  font-size: 128px ;
+  
+  
+}
+
+
+.logo .leo {
+  color: #2c3b6f;
+}
+
+.logo .lov {
+  color: #000;
+}
+
+.logo .subText {
+  color: #fff;
+  font-size: 16px;
+  display: block;
+}
+.mainlogo .leo{
+  color: #002BC2;
+
+}
+.mainlogo .lov{
+  color: white;
+}
+
+main {
+  background-image: url("https://images.unsplash.com/photo-1497366811353-6870744d04b2?q=80&w=1769&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  min-height: 742px;
+  width: 1280px;
+}
+
+main .card-holder {
+  margin: 16px;
+  margin-top: 500px;
+  display: flex;
+  gap: 16px;
+  padding: 8px;
+  justify-content: space-around;
+  
+}
+
+main .card {
+  width: 270px;
+  height: 391px;
+  background: #fff;
+  border-radius: 8px;
+  border: 1px #000 solid;
+}
+
+main .card h1 {
+  color: #002BC2;
+  font-size: 32px;
+
+  text-align: center;
+  padding: 22px;
+}
+
+.card span {
+  padding: 30px;
+  display: block;
+}
+
+
+.bokse {
+  width: 1192px;
+  height: 530px;
+  background: #2c3b6f;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 44px;
+}
+
+.bokse img,
+#maps {
+  height: 514px;
+  width: 584px;
+
+  /*
+  border: 8px #2C3B6F solid;
+  */
+}
+
+.bokse .infobox {
+  height: 514px;
+  width: 584px;
+  background: #fafafa;
+  /*
+  border: 8px #2C3B6F solid;
+  */
+}
+
+.bokse .infobox h2 {
+  font-family: "Jura", sans-serif;
+  font-size:32px;
+  color: #002BC2;
+  font-weight:400;
+}
+
+.bokse .infobox span{
+  display:block;
+  padding:45px;
+  font-family: "Inter", sans-serif;
+}
+
+
+h2 {
+  text-align: center;
+}
+
+.meetTheTeam {
+  /* outline:red solid 1px;*/
+  width: 1280px; /* Tjek 'mød holdets' width*/
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+
+.meetTheTeam .worker {
+  height: 400px;
+  border-bottom: 8px #2c3b6f solid;
+  width: 200px;
+  
+
+}
+
+.headerteam {
+ color: #002BC2;
+  font-size: 48px;
+  font-weight: 100;
+  
+}
+
+.meetTheTeam .worker h1{
+  color: #002BC2;
+  font-size: 14px;
+   text-align: center;
+  padding-top: 30px;
+  font-weight: 400;
+}
+
+.meetTheTeam .worker .workerImage {
+  width: 196px;
+  height: 196px;
+  border: 8px #2c3b6f solid;
+  border-radius: 50%;
+}
+
+.meetTheTeam .worker span{
+  padding-top: 10px;
+  display: block;
+  
+}
+
+footer {
+  background-color: #2c3b6f;
+  width: 1280px;
+  padding: 16px;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  font-size: 0.8rem;
+  box-sizing: border-box;
+}
+
+footer h1 {
+  font-family: "Jura", sans-serif;
+  font-size: 1.4rem;
+}
